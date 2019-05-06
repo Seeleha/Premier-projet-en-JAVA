@@ -2,7 +2,8 @@ package com.menudejeuner;
 
 public class Main {
 
-	public static void main(String[] args) {
-			System.out.println("Bienvenue à toi, choisi donc ton repas !");
-		}
+    public static void main(String[] args) {
+        Order order = new Order();
+        order.runMenus();
+}
 }
